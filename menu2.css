@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.sub-container{
+    
+    background-color: black;
+   
+    width: 100%;
+}
+
+
+
+
+.pizza{
+    width: 70px;
+    margin-left: 50px;
+}
+.logo-container{
+    display: inline-flex;
+    float: left;
+}
+.brand-name {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #cda45e;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+nav{
+    
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0; /* Ensure it's at the top of the viewport */
+    left: 0; /* Ensure it's aligned to the left */
+    z-index: 1000; /* Ensure it's above other content */
+    
+}
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Crimson Text", serif;
+    cursor: pointer;
+
+}
+
+.menu{
+    color: #cda45e;
+    text-decoration: none;
+}
+nav ul li .others{
+    text-decoration: none;
+    color: white;
+}
+nav ul li .others:hover{
+    color: #cda45e;
+}
+nav ul{
+    float: right;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+.background-container{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-text{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 70px;
+    color: 	#cda45e;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    padding-top: 100px;
+    clear: both;
+
+}
+.welcome-text span{
+    color: #cda45e;
+}
+
+.about-text{
+    color: white;
+    font-size: 22px;
+    font-family: "Crimson Text", serif;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.the-first{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.60), rgb(0, 0, 0, 0.60)), url(./Images/pizza\ bg\ img.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.kind-of-pizza{
+    margin-top: 100px;
+}
+
+
+.kind-of-pizza .kind{
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    color: 	#cda45e;
+    
+}
+.kind-of-pizza .who{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    padding-top: 20px;
+    color: rgb(67, 67, 67);
+}
+.list-of-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    column-gap: 20px;
+    max-width: 800px;
+}
+.card{
+    background-color: #cda45e;
+    max-width: 400px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.content .r{
+    float: right;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 27px;
+    color: rgb(67, 67, 67);
+}
+.content .f{
+    float: left;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 27px;
+    color: rgb(67, 67, 67);;
+}
+.card p{
+    clear: both;
+    padding-top: 10px;
+    font-family: "Crimson Text", serif;
+    color: rgb(67, 67, 67);
+    max-width: 350px;
+}
+
+
+
+
+
+.reserve-seat{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/reserve.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    margin-top: 100px;
+    opacity: 1.3;
+    display: grid;
+    grid-template-columns: 0.5fr 0.2fr;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+} 
+.seat-text1{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    color: #cda45e;
+    
+}
+.seat-text2{
+    font-family: "Crimson Text", serif;
+    color: white;
+    
+    font-size: 20px;
+}
+.fill-in{
+    background-color: white;
+    padding: 80px 30px 80px 30px;
+}
+.type-here{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 7px;
+    font-size: 16px;
+    max-width: 295px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.date {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .fill-in{
+    padding: 30px 20px 30px 20px;
+  }
+.reserve-btn{
+    border: none;
+    padding: 7px 18px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: #cda45e;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    
+}
+.reserve-btn:hover{
+    background-color: white;
+    border: 2px solid #cda45e;
+    color: #cda45e;
+    padding: 5px 17px;
+    
+
+}
+
+
+
+.gap{
+    margin-right: 60px;
+}
+.s-gap{
+    margin-right: 103.5px;
+}
+.su-gap{
+    margin-right: 111.5px;
+}
+hr{
+    width: 250px;
+    opacity: 0.3;
+}
+hr, .day{
+    margin-top: 20px;
+}
+.input-field {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+   
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 300px; 
+    border: 2px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.send-button {
+    background-color: #cda45e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin-top: 100px; */
+    
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 60px;
+    
+    
+}
+footer{
+    background-color: #cda45e;
+    color: #ffffff;
+}
+.address, .trust{
+    padding: 20px 0px 20px 0px;
+    
+}
+.address, .trust, .day{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.hrs, .us .newsletter{
+    padding: 40px 0px 40px 0px;
+    
+    
+}
+.cap{
+   
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.copy{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 30px; */
+}
+i{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 880px){
+    .hideOnMobile{
+        display: none;
+    }
+    .the-first{
+        height: 300px;
+    }
+    .welcome-text{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 35px;
+    }
+    .about-text{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;
+        max-width: 450px;
+        padding: 10px;
+    }
+    
+
+    .kind-of-pizza .kind{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 23px;
+        
+    }
+    .kind-of-pizza .who{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    .kind-of-pizza{
+        margin-top: 50px;
+    }
+    .content .r, .content .f{
+        font-size: 16px;
+    } 
+    .card p{
+        font-size: 13px;
+    }
+    .kind-of-pizza{
+        padding: 5px;
+    }
+    .list-of-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card p{
+        max-width: 500px;
+    }
+    .reserve-seat{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+    .seat-text1{
+        text-align: center;
+        margin: auto;
+        font-size: 17px;
+        max-width: 300px;
+        
+    }
+    .type-here{
+        font-size: 10px;
+    }
+    .seat-text2{
+        text-align: center;
+        margin: auto;
+        font-size: 13px;
+        max-width: 320px;
+        padding-top: 10px;
+    }
+    .reserve-btn{
+        font-size: 15px;
+    }
+    .fill-in{
+        max-width: 400px;
+        max-height: 800px;
+    }
+    .type-here{
+        max-width: 150px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+        width: 100%;
+    }
+    
+    .social-icons{
+        margin-top: 50px;
+    }
+}
+
+
+@media(max-width: 400px){
+    
+    .pizza{
+        width: 50px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .brand-name{
+        font-size: 13px;
+        margin-top: 19px;
+        max-width: 70px;
+    }
+
+    .gap{
+        margin-right: 10px;
+    }
+    .s-gap{
+        margin-right: 8px;
+    }
+    .su-gap{
+        margin-right: 7px;
+    }
+    .address{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+    .us h1{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .trust{
+
+        font-size: 10px;
+        padding-top: 0px;
+    }
+
+    .hrs, .us .newsletter{
+        padding: 5px;
+    }
+    
+    .input-container {
+        width: 100%;
+        max-width: 220px; /* Reduce the width further */
+        margin: 0 auto; /* Center the container */
+        display: flex;
+        flex-direction: column; /* Stack the input and button vertically */
+    }
+
+    .input-field {
+        padding: 8px; /* Adjust padding to fit better */
+        font-size: 14px; /* Reduce font size for smaller screens */
+        margin-bottom: 10px; /* Add space between input and button */
+        width: 100%; /* Make the input full width within the container */
+        box-sizing: border-box; /* Include padding in the width */
+    }
+    .send-button {
+        padding: 8px; /* Adjust padding */
+        font-size: 14px; /* Reduce font size */
+        width: 100%; /* Make the button full width within the container */
+        margin: 0; /* Remove any margin */
+    }
+}
