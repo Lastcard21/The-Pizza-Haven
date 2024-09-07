@@ -19,40 +19,45 @@
 
 </head>
 <body>
-    <div class="main">
-        <section class="one">
-            
-            <div class="logo-container">
-                <div class="logo-image">
-                    <img src="./Images/Pizza-logo.png" alt="Pizza" class="pizza">
-                </div>
-                <h2 class="brand-name">The Pizza Haven</h2>
+    <section class="the-first">
+        <div class="main-container">
+            <nav>
+                <div class="sub-container">
+                    <div class="logo-container">
+                        <img src="./Images/Pizza-logo.png" alt="" class="pizza">
+                        <h2 class="brand-name">The Pizza Haven</h2>
+                    </div>
 
-            </div>
 
-            <div class="nav">
-                <ul>
-                    <li><a href="./index.html" class="others">Home</a></li>
-                    <li><a href="./about.html" class="others">About us</a></li>
-                    <li><a href="./menu.html" class="others">Menu</a></li>
-                    <li><a href="./contact.html" class="others">Contact</a></li>
-                    <li><a href="./cart.html" class="cart">Cart</a></li>
+
                     
-                    
-                </ul>
-            </div>
-
-            
-        </section>
-
-        <div class="background-container">
-            <div class="bg-img"></div>
-            <h1 class="welcome-text">Cart</h1>
-            <p class="about-text">Get in touch with us to satisfy your pizza cravings! Whether you have a question,<br> special request, or feedback, we're here to help. </p>
-        </div>
-
-
-    </div>
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        
+                        <li><a href="./index.html" class="others">Home</a></li>
+                        <li><a href="./about2.html" class="others">About us</a></li>
+                        <li><a href="./menu2.html" class="others">Menu</a></li>
+                        <li><a href="./contact.html" class="others">Contact</a></li>
+                        <li><a href="" class="cart">Cart</a></li>
+                
+                    </ul>
     
+                    <ul>
+                        <li class="hideOnMobile"><a href="./index.html" class="others">Home</a></li>
+                        <li class="hideOnMobile"><a href="./about2.html" class="others">About us</a></li>
+                        <li class="hideOnMobile"><a href="./menu2.html" class="others">Menu</a></li>
+                        <li class="hideOnMobile"><a href="./contact.html" class="others">Contact</a></li>
+                        <li class="hideOnMobile"><a href="" class="cart">Cart</a></li>
+                        <li onclick="showSidebar()" class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    </ul>
+                </nav>
+                </div>
+            </nav>    
+
+            
+        </div>
+    </section> 
+
+    <script src="index.js"></script>
 </body>
 </html>

@@ -56,6 +56,35 @@ nav ul li{
 }
 
 
+
+
+
+.sidebar{
+    position: fixed;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 20px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: #434343ee;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    line-height: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.menu-button{
+    display: none;
+    
+}
+
+
+
 .welcome-text{
     font-family: "Crimson Text", serif;
     font-weight: 600;
@@ -290,9 +319,17 @@ i{
 }
 
 @media (max-width: 880px){
+
+
     .hideOnMobile{
         display: none;
     }
+    .menu-button{
+        display: block;
+        margin-right: -50px;
+        
+    }
+   
     .the-first {
         
         
@@ -396,6 +433,8 @@ i{
 }
 
 @media (max-width: 400px){
+
+    
     .order-btn{
         font-size: 12px;
         margin: 0 auto;

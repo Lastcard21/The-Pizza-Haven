@@ -67,7 +67,7 @@ nav ul li{
     width: 250px;
     z-index: 999;
     backdrop-filter: blur(10px);
-    background-color: #4343437f;
+    background-color: #434343ee;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
@@ -554,10 +554,7 @@ i{
 
 
 @media(max-width: 400px){
-    .sidebar{
-        width: 100%;
-       
-    }
+    
     
     .order-btn{
         font-size: 12px;
