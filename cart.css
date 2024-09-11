@@ -116,7 +116,30 @@ nav ul{
     
 }
 
-
+.cart-sec{
+    margin-top: 100px;
+}
+.cart-header{
+    max-width: 600px;
+    height: 50px;
+    border: 3px solid #cda45e;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+.cart-count{
+    display: inline-flex;
+    float: right;
+    margin-right: 50px;
+    font-family: "Crimson Text", serif;
+    color: #cda45e;
+}
+.cart-header h3{
+    float: left;
+    margin-left: 50px;
+    font-family: "Crimson Text", serif;
+    color: #cda45e;
+}
 
 
 

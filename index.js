@@ -12,7 +12,7 @@ function hideSidebar(){
 
 
 var numOfCards = document.querySelectorAll('.pizza-pic').length;
-for(var i = 0;i < numOfCards; i++){
+for(var i = 0; i < numOfCards; i++){
     document.querySelectorAll('.pizza-pic')[i].addEventListener("mouseenter", function(){
         this.classList.add('bg-pizza');
     })

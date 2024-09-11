@@ -373,6 +373,7 @@ i{
     .menu-button{
         display: block;
         margin-right: -50px;
+        margin-top: 10px;
         
     }
     .the-first {
@@ -554,7 +555,7 @@ i{
 
 
 
-@media(max-width: 400px){
+@media(max-width: 500px){
     
     
     .order-btn{
