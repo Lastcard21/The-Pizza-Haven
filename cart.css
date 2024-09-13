@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
     
 }
 .pizza{
@@ -140,6 +140,50 @@ nav ul{
     font-family: "Crimson Text", serif;
     color: #cda45e;
 }
+
+.items-added{
+    max-width: 600px;
+    min-height: 80px;
+    border: 3px solid #cda45e;
+    margin: 0 auto;
+    
+    padding-top: 30px;
+}
+.items-added p{
+    text-align: center;
+}
+.total{
+    border-top: 2px solid #cda45e;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.total .txt1{
+    float: left;
+    
+}
+.total .txt2{
+    float: right;
+    
+
+}
+.go-up{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color:  #545454;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+
+
 
 
 
