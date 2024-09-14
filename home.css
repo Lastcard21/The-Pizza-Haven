@@ -381,6 +381,14 @@ i{
     font-size: 22px;
     border-radius: 30px;
 }
+
+
+
+
+
+
+
+
 @media(max-width: 930px){
     .hideOnMobile{
         display: none;

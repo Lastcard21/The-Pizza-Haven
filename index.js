@@ -39,17 +39,4 @@ for(var i = 0; i < numOfCards; i++){
 
 
 
- const product = [
-    {
-        id: 0,
-        image: 'Images/pizza1.gif',
-        title: 'MARGHERITA';
-        price: '2.60',
-    }
-    {
-        id: 1,
-        image: 'Images/pizza2.gif',
-        title: 'VINCENT',
-        price: '3.00'
-    }
- ]
+ 
